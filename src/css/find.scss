@@ -1,0 +1,76 @@
+.find{
+  background: #F1F1F2;
+  &__title{
+    font-family: Gilroy sans-serif;
+    font-size: 56px;
+    line-height: 69px;
+    color: #000000;
+    padding: 154px 0 36px 162px;
+
+  }
+  &__subtitle{
+    font-family: Gilroy sans-serif;
+    font-size: 20px;
+    line-height: 140.62%;
+    color: #000000;
+    margin: 36px 137px 52px 162px;
+  }
+  &__btn{
+    font-family: Gilroy sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #F7941E;
+    border-radius: 5px;
+    width: 200px;
+    height: 60px;
+    border: none;
+    margin: 0 0 105px 162px;
+    cursor: pointer;
+    transition: .3s;
+    &:hover{
+      transition: .3s;
+      border: 1px solid #F7941E;
+      background-color: transparent;
+      color: #F7941E;
+      transform: scale(1.1);
+      font-style: italic;
+    }
+    &-btns{
+      border: 1px solid #F7941E;
+      cursor: pointer;
+      font-family: Gilroy sans-serif;
+      font-size: 18px;
+      line-height: 22px;
+      text-transform: uppercase;
+      color: #F7941E;
+      width: 200px;
+      height: 60px;
+      background-color: transparent;
+      border-radius: 5px;
+      margin: 0 0 105px 162px;
+      transition: .3s;
+      &:hover{
+        transition: .3s;
+        background-color: #F7941E;
+        transform: scale(1.1);
+        color: #FFFFFF;
+        font-style: italic;
+      }
+    }
+  }
+  &__card{
+    width: calc(50%);
+  }
+  &__row{
+    display: flex;
+  }
+  &__info{
+    transition: .3s;
+   &:hover{
+     transition: .3s;
+     transform: scale(1.1);
+   }
+  }
+}

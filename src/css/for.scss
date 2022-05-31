@@ -1,0 +1,63 @@
+.for{
+  padding: 96px 0 500px 0;
+  &__title{
+    font-family: Gilroy sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 23px;
+  }
+  &__subtitle{
+    font-family: Gilroy sans-serif;
+    font-size: 18px;
+    line-height: 135.94%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 64px;
+  }
+  &__card{
+    &-img{
+      position: absolute;
+    }
+    &-title{
+      padding-top: 24px;
+      margin: 24px 24px 74px 24px;
+      font-family: Gilroy sans-serif;
+      font-size: 20px;
+      line-height: 24px;
+      color: #000000;
+    }
+    &-subtitle{
+      font-family: Roboto sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 19px;
+      color: #000000;
+      margin: 0 179px 24px 24px;
+    }
+  }
+  &__column{
+    background-color: #FFFFFF;
+    width: 270px;
+    height: 160px;
+    position: relative;
+    transform: translateY(247px);
+    filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
+    transition: .3s;
+    &-info{
+      background: #FAFAFA;
+    }
+    &:hover{
+      font-style: italic;
+      background-color: #F7941E;
+      transition: .3s;
+      color: white;
+    }
+  }
+  &__row{
+    display: flex;
+    column-gap: 30px;
+  }
+}

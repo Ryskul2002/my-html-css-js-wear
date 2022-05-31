@@ -1,0 +1,577 @@
+@import "../fonts/Gilroy/stylesheet.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Gilroy sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 100%;
+  max-width: 1070px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 36px 0 35px 0;
+}
+.header__card {
+  display: flex;
+}
+.header__menu {
+  display: flex;
+  list-style-type: none;
+  column-gap: 31px;
+  padding-right: 371px;
+}
+.header__wow {
+  padding: 0 475px 0 80px;
+}
+.header__list {
+  font-family: Gilroy sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.header__list-info {
+  text-decoration: none;
+  color: #000000;
+}
+.header__btn {
+  font-family: Gilroy sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #F7941E;
+  width: 150px;
+  height: 43px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #F7941E;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.header__btn:hover {
+  transition: 0.3s;
+  color: #FFFFFF;
+  background-color: #F7941E;
+}
+.header__btns {
+  cursor: pointer;
+}
+
+.find {
+  background: #F1F1F2;
+}
+.find__title {
+  font-family: Gilroy sans-serif;
+  font-size: 56px;
+  line-height: 69px;
+  color: #000000;
+  padding: 154px 0 36px 162px;
+}
+.find__subtitle {
+  font-family: Gilroy sans-serif;
+  font-size: 20px;
+  line-height: 140.62%;
+  color: #000000;
+  margin: 36px 137px 52px 162px;
+}
+.find__btn {
+  font-family: Gilroy sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #F7941E;
+  border-radius: 5px;
+  width: 200px;
+  height: 60px;
+  border: none;
+  margin: 0 0 105px 162px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.find__btn:hover {
+  transition: 0.3s;
+  border: 1px solid #F7941E;
+  background-color: transparent;
+  color: #F7941E;
+  transform: scale(1.1);
+  font-style: italic;
+}
+.find__btn-btns {
+  border: 1px solid #F7941E;
+  cursor: pointer;
+  font-family: Gilroy sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #F7941E;
+  width: 200px;
+  height: 60px;
+  background-color: transparent;
+  border-radius: 5px;
+  margin: 0 0 105px 162px;
+  transition: 0.3s;
+}
+.find__btn-btns:hover {
+  transition: 0.3s;
+  background-color: #F7941E;
+  transform: scale(1.1);
+  color: #FFFFFF;
+  font-style: italic;
+}
+.find__card {
+  width: 50%;
+}
+.find__row {
+  display: flex;
+}
+.find__info {
+  transition: 0.3s;
+}
+.find__info:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+.for {
+  padding: 96px 0 500px 0;
+}
+.for__title {
+  font-family: Gilroy sans-serif;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 23px;
+}
+.for__subtitle {
+  font-family: Gilroy sans-serif;
+  font-size: 18px;
+  line-height: 135.94%;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 64px;
+}
+.for__card-img {
+  position: absolute;
+}
+.for__card-title {
+  padding-top: 24px;
+  margin: 24px 24px 74px 24px;
+  font-family: Gilroy sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.for__card-subtitle {
+  font-family: Roboto sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  margin: 0 179px 24px 24px;
+}
+.for__column {
+  background-color: #FFFFFF;
+  width: 270px;
+  height: 160px;
+  position: relative;
+  transform: translateY(247px);
+  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
+  transition: 0.3s;
+}
+.for__column-info {
+  background: #FAFAFA;
+}
+.for__column:hover {
+  font-style: italic;
+  background-color: #F7941E;
+  transition: 0.3s;
+  color: white;
+}
+.for__row {
+  display: flex;
+  column-gap: 30px;
+}
+
+.get {
+  background-color: #F7941E;
+  padding: 81px 0 69px 0;
+}
+.get__title {
+  font-family: Gilroy sans-serif;
+  font-size: 32px;
+  line-height: 140.62%;
+  color: #000000;
+}
+.get__subtitle {
+  font-family: Gilroy sans-serif;
+  font-size: 32px;
+  line-height: 140.62%;
+  color: #000000;
+}
+.get__btn {
+  font-family: Gilroy sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 200px;
+  height: 50px;
+  background-color: #231F20;
+  border-radius: 5px;
+  border: none;
+  margin-right: 16px;
+  transition: 0.3s;
+}
+.get__btn:hover {
+  content: "";
+  background-color: transparent;
+  color: #231F20;
+  transition: 0.3s;
+  border: 2px solid #231F20;
+  transform: scale(1.1);
+  font-style: italic;
+}
+.get__btns {
+  font-family: Gilroy sans-serif;
+  font-size: 18px;
+  line-height: 134.77%;
+  text-transform: uppercase;
+  color: #000000;
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.get__btns:hover {
+  transition: 0.3s;
+  background-color: #231F20;
+  color: white;
+  transform: scale(1.1);
+  font-style: italic;
+}
+.get__row {
+  display: flex;
+  column-gap: 229px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Best {
+  padding: 88px 80px;
+}
+.Best__title {
+  font-family: Gilroy sans-serif;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 23px;
+}
+.Best__subtitle {
+  font-family: Gilroy sans-serif;
+  font-size: 18px;
+  line-height: 135.94%;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 71px;
+}
+.Best__card-img {
+  position: absolute;
+  transition: 0.3s;
+}
+.Best__card-img:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.Best__card-info {
+  font-family: Gilroy sans-serif;
+  font-size: 14px;
+  line-height: 140.62%;
+  color: #FFFFFF;
+  margin-bottom: 27px;
+}
+.Best__card-title {
+  font-family: Gilroy sans-serif;
+  font-size: 48px;
+  line-height: 58px;
+  color: #FFFFFF;
+  margin-bottom: 60px;
+}
+.Best__card-subtitle {
+  font-family: Gilroy sans-serif;
+  font-size: 18px;
+  line-height: 140.62%;
+  color: #FFFFFF;
+}
+.Best__column {
+  background-color: #231F20;
+  width: 100%;
+  height: 370px;
+  padding: 63px 200px 49px 478px;
+  margin-bottom: 40px;
+}
+.Best__bag {
+  background: #FFFFFF;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+  width: 570px;
+  height: 290px;
+  padding: 48px 48px 50px 48px;
+}
+.Best__bag-info {
+  background-color: #FFFFFF;
+  padding: 48px 48px 50px 48px;
+  width: 570px;
+  height: 290px;
+}
+.Best__bag-title {
+  font-family: Gilroy sans-serif;
+  font-size: 24px;
+  line-height: 140.62%;
+  color: #000000;
+  margin-bottom: 16px;
+}
+.Best__bag-subtitle {
+  font-family: Gilroy sans-serif;
+  font-size: 18px;
+  line-height: 140.62%;
+  color: #000000;
+  margin-bottom: 25px;
+}
+.Best__bag-apple {
+  font-family: Gilroy sans-serif;
+  font-size: 14px;
+  line-height: 140.62%;
+  color: #000000;
+}
+.Best__row {
+  display: flex;
+  column-gap: 30px;
+}
+
+.footer {
+  background: #FAFAFA;
+  padding: 106px 0;
+}
+.footer__card {
+  display: flex;
+  column-gap: 81px;
+  justify-content: center;
+}
+.footer__card-info {
+  font-family: Gilroy sans-serif;
+  font-size: 14px;
+  line-height: 140.62%;
+  color: #000000;
+  margin-bottom: 98px;
+}
+.footer__apple {
+  position: relative;
+}
+.footer__apple::before {
+  border: 1px solid #000000;
+  content: "";
+  width: 1000px;
+  position: absolute;
+  right: -460px;
+  top: 75px;
+}
+.footer__menu {
+  display: flex;
+  list-style-type: none;
+  column-gap: 25px;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+.footer__pilot {
+  display: flex;
+  list-style-type: none;
+  column-gap: 14px;
+  justify-content: center;
+}
+.footer__watch {
+  width: 37px;
+  height: 37px;
+}
+.footer__choose {
+  text-decoration: none;
+  color: #000000;
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #00000098;
+  z-index: 50;
+  display: none;
+}
+.overlay__popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 400px;
+  background-color: white;
+}
+.overlay__close {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: -50px;
+  cursor: pointer;
+  top: 0;
+}
+.overlay__close::before {
+  content: "";
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  transform: rotate(45deg);
+  background-color: white;
+}
+.overlay__close::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  transform: rotate(-45deg);
+  background-color: white;
+}
+.overlay__thanks {
+  display: none;
+  width: 350px;
+  font-size: 30px;
+  padding: 50px 60px;
+}
+.overlay__thanks_active {
+  display: block;
+}
+.overlay__form {
+  display: none;
+  width: 350px;
+  height: 390px;
+  padding: 50px 60px;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.overlay__form_active {
+  display: flex;
+}
+.overlay__label {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #F7941E;
+  transition: 0.3s;
+}
+.overlay__label:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.overlay__input {
+  width: 100%;
+  height: 30px;
+  outline-color: #F7941E;
+  padding-left: 10px;
+}
+.overlay__btn {
+  height: 40px;
+  cursor: pointer;
+  font-size: 23px;
+  color: #F7941E;
+  background-color: transparent;
+  border: 2px solid #F7941E;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.overlay__btn:hover {
+  background-color: #F7941E;
+  color: #FFFFFF;
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.overlay__img {
+  color: #F7941E;
+}
+.overlay__info {
+  color: aquamarine;
+}
+
+.cook {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #00000098;
+  z-index: 50;
+  display: none;
+}
+.cook__popup {
+  position: absolute;
+  top: 9%;
+  left: 7%;
+  width: 200px;
+  height: 175px;
+  background-color: transparent;
+}
+.cook__close {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: -50px;
+  cursor: pointer;
+  top: 0;
+}
+.cook__close::before {
+  content: "";
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  transform: rotate(45deg);
+  background-color: white;
+}
+.cook__close::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  transform: rotate(-45deg);
+  background-color: white;
+}
+.cook__choose {
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  background-color: transparent;
+  margin-bottom: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

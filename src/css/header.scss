@@ -1,0 +1,50 @@
+.header {
+  padding: 36px 0 35px 0;
+  &__card{
+    display: flex;
+  }
+  &__menu{
+    display: flex;
+    list-style-type: none;
+    column-gap: 31px;
+    padding-right: 371px;
+  }
+  &__wow{
+    padding:0  475px 0 80px;
+  }
+  &__list{
+    font-family: Gilroy sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    &-info{
+      text-decoration: none;
+      color: #000000;
+    }
+  }
+  &__btn{
+    font-family: Gilroy sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #F7941E;
+    width: 150px;
+    height: 43px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #F7941E;
+    cursor: pointer;
+    transition: .3s;
+    &:hover{
+    transition: .3s;
+      color: #FFFFFF;
+      background-color: #F7941E;
+    }
+  }
+  &__btns{
+    cursor: pointer;
+    
+  }
+}

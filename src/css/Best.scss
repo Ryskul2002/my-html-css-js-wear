@@ -1,0 +1,93 @@
+.Best{
+  padding: 88px 80px;
+  &__title{
+    font-family: Gilroy sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 23px;
+  }
+  &__subtitle{
+    font-family: Gilroy sans-serif;
+    font-size: 18px;
+    line-height: 135.94%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 71px;
+  }
+  &__card{
+    &-img{
+      position: absolute;
+      transition: .3s;
+      &:hover{
+        transition: .3s;
+        transform: scale(1.1);
+      }
+    }
+    &-info{
+      font-family: Gilroy sans-serif;
+      font-size: 14px;
+      line-height: 140.62%;
+      color: #FFFFFF;
+      margin-bottom: 27px;
+    }
+    &-title{
+      font-family: Gilroy sans-serif;
+      font-size: 48px;
+      line-height: 58px;
+      color: #FFFFFF;
+      margin-bottom: 60px;
+    }
+    &-subtitle{
+      font-family: Gilroy sans-serif;
+      font-size: 18px;
+      line-height: 140.62%;
+      color: #FFFFFF;
+    }
+  }
+  &__column{
+    background-color: #231F20;
+    width: 100%;
+    height: 370px;
+    padding: 63px 200px 49px 478px;
+    margin-bottom: 40px;
+  }
+  &__bag{
+    background: #FFFFFF;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+    width: 570px;
+    height: 290px;
+    padding: 48px 48px 50px 48px;
+    &-info{
+      background-color: #FFFFFF;
+      padding: 48px 48px 50px 48px;
+      width: 570px;
+      height: 290px;
+    }
+    &-title{
+      font-family: Gilroy sans-serif;
+      font-size: 24px;
+      line-height: 140.62%;
+      color: #000000;
+      margin-bottom: 16px;
+    }
+    &-subtitle{
+      font-family: Gilroy sans-serif;
+      font-size: 18px;
+      line-height: 140.62%;
+      color: #000000;
+      margin-bottom: 25px;
+    }
+    &-apple{
+      font-family: Gilroy sans-serif;
+      font-size: 14px;
+      line-height: 140.62%;
+      color: #000000;
+    }
+  }
+  &__row{
+    display: flex;
+    column-gap: 30px;
+  }
+}

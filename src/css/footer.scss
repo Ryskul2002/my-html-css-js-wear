@@ -1,0 +1,51 @@
+.footer{
+  background: #FAFAFA;
+  padding: 106px 0;
+  &__card{
+    display: flex;
+    column-gap: 81px;
+    justify-content: center;
+    &-info{
+      font-family: Gilroy sans-serif;
+      font-size: 14px;
+      line-height: 140.62%;
+      color: #000000;
+      margin-bottom: 98px;
+    }
+  }
+  &__apple{
+    position: relative;
+    &::before{
+      border: 1px solid #000000;
+      content: '';
+      width: 1000px;
+      position: absolute;
+      right: -460px;
+      top: 75px;
+    }
+  }
+  &__menu{
+    display: flex;
+    list-style-type: none;
+    column-gap: 25px;
+    justify-content: center;
+    margin-bottom: 72px;
+  }
+  &__pilot{
+    display: flex;
+    list-style-type: none;
+    column-gap: 14px;
+    justify-content: center;
+  }
+  &__list{
+
+  }
+  &__watch{
+    width: 37px;
+    height: 37px;
+  }
+  &__choose{
+    text-decoration: none;
+    color: #000000;
+  }
+}
